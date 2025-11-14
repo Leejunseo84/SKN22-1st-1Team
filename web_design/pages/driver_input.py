@@ -56,7 +56,7 @@ def init_visualizer():
         return None  # st.stop() 대신 None 반환
 
 # --- 3. 페이지 설정 및 UI ---
-st.set_page_config(page_title="2-Variable 분석", layout="wide")
+st.set_page_config(page_title="교통사고 시각화 분석", layout="wide")
 
 # ===== 메인페이지 이동 버튼 (타이틀 상단) =====
 if st.button("← 메인페이지로 이동", key="main_btn"):
